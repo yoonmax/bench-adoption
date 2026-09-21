@@ -2,7 +2,8 @@
 
 *Leave your mark on the park.*
 
-**Live application:** _(URL added after deployment — see bottom of this file)_
+**Live application:** https://bench-adoption.vercel.app
+**Source:** https://github.com/yoonmax/bench-adoption
 
 A small, complete web app that acts as a single source of truth for a park bench adoption program: which benches are adopted, by whom, for how long, and which are still available — plus a form to adopt an available bench.
 
@@ -189,7 +190,21 @@ No public/anon key is used anywhere.
 
 ## Live application
 
-_(added after deployment)_
+**https://bench-adoption.vercel.app** — no sign-in required. Open it, find an *Available* bench, adopt it, and refresh: the bench and the counts update for every visitor.
+
+### Deployment
+
+Hosted on Vercel, database on Supabase (both free tier).
+
+```bash
+npx vercel login          # once
+npx vercel link           # once, links this folder to the Vercel project
+npx vercel env add SUPABASE_URL production
+npx vercel env add SUPABASE_SERVICE_ROLE_KEY production --sensitive
+npx vercel deploy --prod  # build + deploy
+```
+
+The schema and seed were applied to the Supabase project with the same two SQL files in `supabase/`.
 
 ---
 
