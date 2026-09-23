@@ -7,7 +7,7 @@
 
 A small, complete web app that acts as a single source of truth for a park bench adoption program: which benches are adopted, by whom, for how long, and which are still available — plus a form to adopt an available bench.
 
-Built as a take-home project for **Columbia Software Solutions** (Option 2: Bench Adoption Program). It is an **independent demonstration** and is not affiliated with Van Cortlandt Park, NYC Parks, or any conservancy. All 520 benches and every donor in it are fictional sample data. No payments are collected.
+An **independent demonstration project**, not affiliated with Van Cortlandt Park, NYC Parks, or any conservancy. All 520 benches and every donor in it are fictional sample data. No payments are collected.
 
 ---
 
@@ -208,4 +208,4 @@ The schema and seed were applied to the Supabase project with the same two SQL f
 
 ---
 
-*Built with Next.js, Supabase, and Tailwind for the Columbia Software Solutions take-home.*
+*Built with Next.js, Supabase, and Tailwind.*

@@ -39,8 +39,8 @@ export default function AboutPage() {
           <h2 className="text-lg font-semibold text-charcoal-900">Important disclaimers</h2>
           <ul className="mt-2 list-disc space-y-1.5 pl-5 leading-relaxed">
             <li>
-              This is an <strong>independent demonstration</strong> built for a Columbia Software Solutions take-home
-              project. It is not affiliated with Van Cortlandt Park, NYC Parks, or any conservancy.
+              This is an <strong>independent demonstration project</strong>. It is not affiliated with, endorsed by, or
+              operated by Van Cortlandt Park, NYC Parks, or any conservancy.
             </li>
             <li>
               All 520 benches, their locations, and every donor shown are <strong>fictional sample data</strong>.
